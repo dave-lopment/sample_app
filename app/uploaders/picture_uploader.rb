@@ -8,7 +8,7 @@ class PictureUploader < CarrierWave::Uploader::Base
     storage :fog
   else
     storage :file
-  end 
+  end
 
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
